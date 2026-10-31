@@ -1,0 +1,46 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.secret
+
+# Raw dataset files (user supplies manually)
+data/*
+!data/.gitkeep
+
+# Generated model artifacts and reports
+models/*
+!models/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Logs
+*.log
+
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+
+# Explicit large/local paths
+data/archive/
+scripts/__pycache__/
